@@ -29,34 +29,31 @@ body{
 } */
 .debug > .site-footer{
   height: 50px;
-  background-color: rgb(226, 103, 103);
+  /* background-color: rgb(226, 103, 103); */
 }
 .debug .hero-image{
   height: 360px;
   background-color: chocolate;
 }
-.debug .hero-image{
-  height: 360px;
-  background-color: chocolate;
-}
-.debug .main-header{
+/* .debug .main-header{
   height: 130px;
   background-color: rgb(35, 221, 144);
-}
+} */
 
 .debug aside,
 .debug .central-bar{
   height: 390px;
-  background-color: cornflowerblue;
+/*   background-color: cornflowerblue; */
 }
 
 /* selector rules */
 .left-bar,
 .right-bar{
-  width: 25%;
+  width: 24%;
+  margin: 0 1%;
 }
 .central-bar{
-  width: 48%;
+  width: 46%;
   margin: 0 1%;
 }
 .main-header{
@@ -68,8 +65,8 @@ body{
 .left-bar,
 .central-bar,
 .right-bar{
-  float: left;
-  background-color: cornflowerblue;
+    float: left;
+/*   background-color: cornflowerblue; */
   
 }
 
@@ -92,16 +89,18 @@ ul.nav-bar li{
 /* main */
 /* hero-image */
 .hero-image{
+    width: 100%;
     background-image: url(/img/banner.jpg);
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: -75px;
-    border-radius: 10px;
+    object-fit: cover;
+    background-position-x: center; 
+    background-position-y: -165px;
+    border-radius: 12px;
+    float: left;
 }
 .hero-image-title{
     color: white;
     font-size: 21px;
-    padding-left: 25px;
+    padding-left: 35px;
     float: left;
     margin-top: 230px;
 }
@@ -109,5 +108,36 @@ ul.nav-bar li{
     color: white;
     font-size: 10px;
     padding-left: 25px;
-    float: left;
+
+}
+.site-main{
+    margin-bottom: 60px;
+}
+.main-header{
+    margin: 1.5rem 0;
+}
+.image{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.sub-title{
+
+    padding: .75rem 0;
+}
+.text{
+    font-size: 10px;
+}
+/* footer */
+.site-footer{
+    text-align: center;
+}
+.footer-text{
+    display: inline-block;
+    margin: auto;
+}
+.cuore{
+    color: red;
+    display: inline-block;
 }
