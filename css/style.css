@@ -1,0 +1,113 @@
+/* common rules */*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix ::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+body{
+  width: 70%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.page{
+    width: 100%;
+    margin: auto;
+}
+/* debug rules */
+/* .debug > .site-header{
+  height: 120px;
+  background-color: rgb(238, 217, 30);
+} */
+/* .debug > .site-main{
+  height: 900px;
+  background-color: cadetblue;
+} */
+.debug > .site-footer{
+  height: 50px;
+  background-color: rgb(226, 103, 103);
+}
+.debug .hero-image{
+  height: 360px;
+  background-color: chocolate;
+}
+.debug .hero-image{
+  height: 360px;
+  background-color: chocolate;
+}
+.debug .main-header{
+  height: 130px;
+  background-color: rgb(35, 221, 144);
+}
+
+.debug aside,
+.debug .central-bar{
+  height: 390px;
+  background-color: cornflowerblue;
+}
+
+/* selector rules */
+.left-bar,
+.right-bar{
+  width: 25%;
+}
+.central-bar{
+  width: 48%;
+  margin: 0 1%;
+}
+.main-header{
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+.main-header,
+.left-bar,
+.central-bar,
+.right-bar{
+  float: left;
+  background-color: cornflowerblue;
+  
+}
+
+/* aggiunta di contenuto */
+/* header */
+.site-header{
+    margin-bottom: 2rem;
+}
+.logo{
+    max-width: 120px;
+    height: auto;
+}
+ul.nav-bar li{
+    display: inline;
+}
+.nav-bar{
+    padding-top: 1rem;
+    font-size: 15px;
+}
+/* main */
+/* hero-image */
+.hero-image{
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -75px;
+    border-radius: 10px;
+}
+.hero-image-title{
+    color: white;
+    font-size: 21px;
+    padding-left: 25px;
+    float: left;
+    margin-top: 230px;
+}
+.hero-image-text{
+    color: white;
+    font-size: 10px;
+    padding-left: 25px;
+    float: left;
+}
